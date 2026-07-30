@@ -1,0 +1,7 @@
+--- Stock Portfolio Report ---
+Stock: AAPL | Qty: 46 | Value: $8303.00
+Stock: TSLA | Qty: 68 | Value: $16320.00
+Stock: GOOGL | Qty: 12 | Value: $1683.00
+Stock: MSFT | Qty: 26 | Value: $10660.00
+
+Total Portfolio Value: $36966.00
