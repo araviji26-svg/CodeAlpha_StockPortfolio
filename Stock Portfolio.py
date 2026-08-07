@@ -6,7 +6,6 @@ stock_prices = {
     "AMZN": 175.10,
 }
 
-
 def main():
   print("--- Welcome to Your Stock Portfolio Tracker ---")
   print("Available stocks and prices per share:")
