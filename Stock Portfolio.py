@@ -16,9 +16,7 @@ def main():
   portfolio = {}
   total_investment = 0.0
   while True:
-    ticker = input(
-        "\nEnter stock symbol to buy (or type 'done' to finish): "
-    ).upper()
+    ticker = input("\nEnter stock symbol to buy (or type 'done' to finish): ").upper()
     if ticker == "DONE":
       break
 
@@ -57,9 +55,7 @@ def main():
   filename = "portfolio_summary.txt"
   with open(filename, "w") as file:
     file.writelines(summary_lines)
-
+      
   print(f"\nPortfolio successfully saved to {filename}!")
-
-
 if __name__ == "__main__":
   main()
