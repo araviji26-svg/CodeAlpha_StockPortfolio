@@ -6,7 +6,6 @@ stock_prices = {
     "AMZN": 175.10,
 }
 
-
 def main():
   print("--- Welcome to Your Stock Portfolio Tracker ---")
   print("Available stocks and prices per share:")
@@ -16,9 +15,7 @@ def main():
   portfolio = {}
   total_investment = 0.0
   while True:
-    ticker = input(
-        "\nEnter stock symbol to buy (or type 'done' to finish): "
-    ).upper()
+    ticker = input("\nEnter stock symbol to buy (or type 'done' to finish): ").upper()
     if ticker == "DONE":
       break
 
@@ -59,7 +56,5 @@ def main():
     file.writelines(summary_lines)
 
   print(f"\nPortfolio successfully saved to {filename}!")
-
-
 if __name__ == "__main__":
   main()
